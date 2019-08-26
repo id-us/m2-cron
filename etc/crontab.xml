@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../app/code/Magento/Cron/etc/crontab.xsd">
+
+    <group id="idus_cron_1">
+        <job name="idus_cron_check_1" instance="Idus\Cron\Model\Cron" method="CheckCron">
+            <schedule>*/15 * * * *</schedule>
+        </job>
+    </group>
+
+	<group id="idus_cron_2">
+        <job name="idus_cron_check_2" instance="Idus\Cron\Model\Cron" method="CheckCron">
+            <schedule>*/15 * * * *</schedule>
+        </job>
+	</group>
+
+	<group id="idus_cron_3">
+        <job name="idus_cron_check_3" instance="Idus\Cron\Model\Cron" method="CheckCron">
+            <schedule>*/15 * * * *</schedule>
+        </job>
+	</group>
+
+	<group id="idus_cron_4">
+        <job name="idus_cron_check_4" instance="Idus\Cron\Model\Cron" method="CheckCron">
+            <schedule>*/15 * * * *</schedule>
+        </job>
+	</group>
+
+	<group id="idus_cron_5">
+        <job name="idus_cron_check_5" instance="Idus\Cron\Model\Cron" method="CheckCron">
+            <schedule>*/15 * * * *</schedule>
+        </job>
+	</group>
+
+</config>
