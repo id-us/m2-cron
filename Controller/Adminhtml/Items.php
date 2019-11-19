@@ -53,7 +53,7 @@ abstract class Items extends \Magento\Backend\App\Action
     protected function _initAction()
     {
         $this->_view->loadLayout();
-        $this->_setActiveMenu('Idus_Cron::items')->_addBreadcrumb(__('Items'), __('Schedule Table'));
+        $this->_setActiveMenu('Idus_Cron::base_list')->_addBreadcrumb(__('Items'), __('Schedule Table'));
         return $this;
     }
 
@@ -64,6 +64,6 @@ abstract class Items extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Idus_Cron::items');
+        return $this->_authorization->isAllowed('Idus_Cron::base_list');
     }
 }
