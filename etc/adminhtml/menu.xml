@@ -2,6 +2,6 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
     <menu>
-        <add id="Idus_Cron::base_list" title="Cron List" module="Idus_Cron" sortOrder="1080" parent="Idus_Core::tools" action="cron/items/" resource="Idus_Cron::base_list"/>
+        <add id="Idus_Cron::base_list" title="Cron List" module="Idus_Cron" sortOrder="1080" parent="Magento_Backend::system_tools" action="cron/items/" resource="Idus_Cron::base_list"/>
     </menu>
 </config>
